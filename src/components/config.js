@@ -19,7 +19,7 @@ export const auth= getAuth(app);
 export const provider= new GoogleAuthProvider();
 export const signInWithGoogle=()=>{
   signInWithPopup(auth,provider).then((result)=>{
-      consol.log(result);
+      console.log(result);
   }).catch(err=>console.log(err))
   
 }

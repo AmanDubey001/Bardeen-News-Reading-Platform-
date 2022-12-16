@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 const Signup = () => {
   const navigate=useNavigate();
    const next=()=>{
-    {signInWithGoogle}
+    signInWithGoogle();
     navigate("/News")
    }
   return (
